@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Senior UX/UI Engineer &amp; Front-End Developer Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#111111',
+                        'brand-light': '#F9F9F9',
+                        'brand-gray': '#666666'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap" rel="stylesheet"/>
+<style data-purpose="global-styles">
+        body {
+            background-color: #F9F9F9;
+            color: #111111;
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        .hover-reveal {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+<nav class="fixed top-0 left-0 w-full z-50 bg-brand-light/80 backdrop-blur-md border-b border-black/5" data-purpose="main-navigation">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-xl font-bold tracking-tighter uppercase" data-purpose="brand-logo">
+            Portfolio.
+        </div>
+<div class="hidden md:flex space-x-12 text-sm font-medium uppercase tracking-widest">
+<a class="hover:text-brand-gray transition-colors" href="#projects">Experience</a>
+<a class="hover:text-brand-gray transition-colors" href="#expertise">Expertise</a>
+<a class="hover:text-brand-gray transition-colors" href="#about">Profile</a>
+<a class="hover:text-brand-gray transition-colors underline underline-offset-4" href="mailto:hello@example.com">Contact</a>
+</div>
+<button class="md:hidden">Menu</button>
+</div>
+</nav>
+<main>
+<section class="min-h-screen flex flex-col justify-center px-6 pt-20" data-purpose="hero-section">
+<div class="max-w-7xl mx-auto w-full">
+<div class="editorial-grid">
+<div class="col-span-12 lg:col-span-10">
+<h1 class="text-5xl md:text-8xl font-display italic leading-tight mb-12">
+                        Transformando necesidades de negocio en <span class="not-italic text-brand-dark">productos digitales escalables.</span>
+</h1>
+</div>
+<div class="col-span-12 lg:col-span-6 flex flex-col items-start gap-8">
+<p class="text-xl md:text-2xl text-brand-gray leading-relaxed font-light">
+                        Senior UX/UI Engineer &amp; Front-End Developer con más de 10 años de experiencia uniendo la estrategia visual con la excelencia técnica.
+                    </p>
+<div class="flex flex-wrap gap-4 mt-4">
+<a class="px-8 py-4 bg-brand-dark text-white text-sm font-bold uppercase tracking-widest hover:bg-brand-gray transition-all" href="#">
+                            Iniciar Proyecto
+                        </a>
+<a class="px-8 py-4 border border-brand-dark text-brand-dark text-sm font-bold uppercase tracking-widest hover:bg-brand-dark hover:text-white transition-all" href="#">
+                            Descargar CV
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white border-y border-black/5" data-purpose="experience-section" id="projects">
+<div class="max-w-7xl mx-auto px-6">
+<header class="mb-24">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-gray mb-4 block">Selected Partnerships</span>
+<h2 class="text-4xl font-display italic">Trayectoria Profesional</h2>
+</header>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-black/10 border border-black/10">
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">BancoEstado</h3>
+<p class="text-brand-gray italic text-sm mt-1">UX Designer / 2021 - Actualidad</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Diseñé e implementé interfaces para tótems de autoservicio utilizados por clientes en zonas remotas del país.</p>
+<p>Lideré el desarrollo del sistema de diseño del área Empresas, creando una librería de componentes en Angular que permitió estandarizar interfaces, mejorar accesibilidad y optimizar flujos digitales.</p>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">Entel</h3>
+<p class="text-brand-gray italic text-sm mt-1">Analista TI / UX – 2020 - 2021</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Rediseñé los flujos digitales de contratación de seguros, mejorando la visibilidad de productos y optimizando el funnel comercial.</p>
+<p>Apoyé la toma de decisiones mediante análisis y reportes en Power BI.</p>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">Buk</h3>
+<p class="text-brand-gray italic text-sm mt-1">Diseñador Front-End / 2018 - 2019</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Diseño e implementación de interfaces para plataforma integral de recursos humanos.</p>
+<p>Colaboré en la evolución del producto mediante mejoras en experiencia de usuario y consistencia visual.</p>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">Rocketbot</h3>
+<p class="text-brand-gray italic text-sm mt-1">Gerente Regional y Co-Founder / 2017 - 2018</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Co-fundador de solución RPA con modelo SaaS, participando en definición de producto y análisis de procesos empresariales para automatización.</p>
+<p>Lideré la expansión regional en Colombia, trabajando directamente con clientes corporativos en la optimización de procesos y eficiencia operativa.</p>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">R2DA</h3>
+<p class="text-brand-gray italic text-sm mt-1">Co-Founder - Diseñador UI / 2016 - 2017</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed">
+<ul class="list-disc ml-4 space-y-2">
+<li>Co- Fundador R2DA, empresa de desarrollo a medida</li>
+<li>Gestión de equipos TI.</li>
+<li>Diseño de interfaces y apps móviles.</li>
+</ul>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">Acid Labs</h3>
+<p class="text-brand-gray italic text-sm mt-1">Diseñador Front-End / 2012 - 2016</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Diseñador Front-End durante 5 años en proyectos de e-commerce, mobile y plataformas digitales para clientes como reconocidas marcas de retail y salud.</p>
+<p>Participé en el diseño e implementación de soluciones digitales, colaborando con equipos multidisciplinarios desde la conceptualización hasta la ejecución.</p>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">Pymefácil</h3>
+<p class="text-brand-gray italic text-sm mt-1">Lead Designer / 2010 - 2012</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Diseñador gráfico en la primera agencia de emprendimiento de Chile.</p>
+<p>Diseño de marca, desarrollo web y estrategia de marketing para nuevas empresas.</p>
+</div>
+</div>
+<div class="group bg-white p-8 hover:bg-brand-light transition-colors flex flex-col h-full">
+<div class="mb-6">
+<h3 class="text-3xl font-light">C. Pedro de Valdivia</h3>
+<p class="text-brand-gray italic text-sm mt-1">Web &amp; Editorial / 2009 - 2010</p>
+</div>
+<div class="text-sm text-brand-gray leading-relaxed space-y-4">
+<p>Diseño y desarrollo web para colegios y pre-universitarios de la corporación.</p>
+<p>Diseño editorial de agendas y anuarios y pruebas multimedia para alumnos de pre-básica.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-brand-light" data-purpose="capabilities-section" id="expertise">
+<div class="max-w-7xl mx-auto px-6">
+<div class="editorial-grid">
+<div class="col-span-12 md:col-span-4 mb-16 md:mb-0">
+<h2 class="text-xs font-bold uppercase tracking-widest text-brand-gray mb-8">Expertise &amp; Services</h2>
+<p class="text-2xl font-display italic leading-relaxed">
+                        Un enfoque híbrido que garantiza coherencia desde el prototipo hasta el código final.
+                    </p>
+</div>
+<div class="col-span-12 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+<div data-purpose="skill-card">
+<h4 class="text-sm font-bold uppercase tracking-widest mb-4">UX/UI Design</h4>
+<p class="text-brand-gray leading-relaxed">
+                            Diseño centrado en el usuario enfocado en usabilidad, accesibilidad y estética minimalista para plataformas SaaS complejas.
+                        </p>
+</div>
+<div data-purpose="skill-card">
+<h4 class="text-sm font-bold uppercase tracking-widest mb-4">Front-End Development</h4>
+<p class="text-brand-gray leading-relaxed">
+                            Implementación de interfaces robustas con React, Vue y arquitecturas modernas, priorizando el rendimiento y la escalabilidad.
+                        </p>
+</div>
+<div data-purpose="skill-card">
+<h4 class="text-sm font-bold uppercase tracking-widest mb-4">Design Systems</h4>
+<p class="text-brand-gray leading-relaxed">
+                            Creación y mantenimiento de librerías de componentes consistentes que aceleran el ciclo de desarrollo y diseño.
+                        </p>
+</div>
+<div data-purpose="skill-card">
+<h4 class="text-sm font-bold uppercase tracking-widest mb-4">Digital Strategy</h4>
+<p class="text-brand-gray leading-relaxed">
+                            Consultoría estratégica para alinear los objetivos técnicos con la visión de negocio a largo plazo.
+                        </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-brand-dark text-white" data-purpose="profile-section" id="about">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row gap-20 items-center">
+<div class="w-full md:w-1/2 aspect-[4/5] bg-brand-gray/20 overflow-hidden" data-purpose="profile-image-container">
+<img alt="Senior UX/UI Engineer Portrait" class="w-full h-full object-cover grayscale opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5pZaiurDr4LtJK4B1CSdClsLjDrQSODw-jATqkBhF4CCsxnMBRpSdmvQ_VEjBeAOoQOdW46iPNf-dz7DB5GIs9ZTvpMmtB-Opv_S_6apMvxqxTGPkc5dipuzF-rX5YPp61o_PVvf9l_eRxcMuyQ6bPdxAkaTpo5TvLQcl-j3Xgr0YGSK3QRUZGwACz_6G2l-fE4xtt6WdHpKOKFwuYxZUFmFk3xRaiCdCToNuUyVCviNDkB6c7HVpkTmKtB89d3LPZ-w2kHEwQ-Ah"/>
+</div>
+<div class="w-full md:w-1/2">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-gray mb-4 block">About the professional</span>
+<h2 class="text-4xl md:text-6xl font-display italic mb-8">Estrategia, Diseño y Código en un solo lugar.</h2>
+<p class="text-lg text-brand-gray leading-relaxed mb-6">
+                        A lo largo de una década, he colaborado con corporaciones líderes y startups dinámicas en Chile y el extranjero. Mi misión es cerrar la brecha entre la intención del diseño y la viabilidad técnica.
+                    </p>
+<p class="text-lg text-brand-gray leading-relaxed mb-12">
+                        Me especializo en liderar equipos técnicos y creativos hacia la entrega de productos que no solo se ven excepcionales, sino que funcionan perfectamente bajo carga y escala.
+                    </p>
+<div class="border-t border-white/10 pt-8 flex gap-8">
+<div>
+<span class="block text-2xl font-bold italic">10+</span>
+<span class="text-xs uppercase tracking-widest text-brand-gray">Years exp.</span>
+</div>
+<div>
+<span class="block text-2xl font-bold italic">50+</span>
+<span class="text-xs uppercase tracking-widest text-brand-gray">Projects delivered</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-brand-light py-20 border-t border-black/5" data-purpose="footer">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-end gap-12">
+<div class="max-w-xl">
+<h2 class="text-4xl md:text-6xl font-display italic mb-8">¿Listo para el siguiente paso?</h2>
+<a class="text-2xl md:text-4xl underline underline-offset-8 hover:text-brand-gray transition-all" href="mailto:hello@example.com">
+                hello@ux-engineer.com
+            </a>
+</div>
+<div class="flex flex-col items-end gap-4 text-sm font-medium uppercase tracking-widest">
+<a class="hover:underline" href="#">LinkedIn</a>
+<a class="hover:underline" href="#">GitHub</a>
+<a class="hover:underline" href="#">Dribbble</a>
+<span class="text-brand-gray mt-8">© 2024 PORTFOLIO — Santiago, CL.</span>
+</div>
+</div>
+</footer>
+
+</body></html>
