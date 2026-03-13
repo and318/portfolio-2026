@@ -3,7 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 const CapabilityBlock = ({ title, description }) => {
   return (
     <li data-purpose="skill-card">
-      <h4 className="text-sm font-bold uppercase tracking-widest mb-4">{title}</h4>
+      <h3 className="text-sm font-bold uppercase tracking-widest mb-4">{title}</h3>
       <p className="text-brand-gray leading-relaxed">
         {description}
       </p>
