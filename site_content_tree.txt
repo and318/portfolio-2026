@@ -1,0 +1,112 @@
+ARBOL DE CONTENIDO EXHAUSTIVO - PORTFOLIO ANDRÉS SAAVEDRA
+=========================================================
+
+METADATOS DEL SITIO
+-------------------
+Título de la página (Head Title): Senior UX/UI Engineer & Front-End Developer Portfolio
+Idioma base: Español (es)
+Viewport: width=device-width, initial-scale=1.0
+
+1. NAVEGACIÓN (Navbar)
+   ├── Logo: Andrés Saavedra
+   ├── Enlaces del Menú:
+   │   ├── 1. EXPERIENCE (Enlaza a: #projects)
+   │   ├── 2. EXPERTISE (Enlaza a: #expertise)
+   │   ├── 3. PROFILE (Enlaza a: #about)
+   │   └── 4. CONTACT (Enlaza a: #contacto - Scroll interno)
+   └── Botón de Temas: Toggle Modo Oscuro / Claro (Efecto Circular Reveal)
+
+2. SECCIÓN HERO (Encabezado)
+   ├── ID: hero-section
+   ├── Título (h1): "Transformando necesidades de negocio en productos digitales escalables."
+   ├── Bajada (p): "Senior UX/UI Engineer & Front-End Developer con más de 10 años de experiencia uniendo la estrategia visual con la excelencia técnica."
+   └── Botones (CTAs):
+       ├── "Iniciar Proyecto" (Enlaza a: #projects)
+       └── "Descargar CV" (Enlaza a: #contacto)
+
+3. TRAYECTORIA PROFESIONAL (PortfolioGrid)
+   ├── ID: projects
+   ├── Label de Sección: Selected Partnerships
+   ├── Título Principal (h2): Trayectoria Profesional
+   ├── Grid de Experiencia (Listado Detallado):
+   │   │
+   │   ├── PROYECTO 1: BancoEstado (2021 - Actualidad)
+   │   │   ├── Cargo: UX Designer
+   │   │   └── Descripción Completa:
+   │   │       - "Diseñé e implementé interfaces para tótems de autoservicio utilizados por clientes en zonas remotas del país."
+   │   │       - "Lideré el desarrollo del sistema de diseño del área Empresas, creando una librería de componentes en Angular que permitió estandarizar interfaces, mejorar accesibilidad y optimizar flujos digitales."
+   │   │
+   │   ├── PROYECTO 2: Entel (2020 - 2021)
+   │   │   ├── Cargo: Analista TI / UX
+   │   │   └── Descripción Completa:
+   │   │       - "Rediseñé los flujos digitales de contratación de seguros, mejorando la visibilidad de productos y optimizando el funnel comercial."
+   │   │       - "Apoyé la toma de decisiones mediante análisis y reportes en Power BI."
+   │   │
+   │   ├── PROYECTO 3: Buk (2018 - 2019)
+   │   │   ├── Cargo: Diseñador Front-End
+   │   │   └── Descripción Completa:
+   │   │       - "Diseño e implementación de interfaces para plataforma integral de recursos humanos."
+   │   │       - "Colaboré en la evolución del producto mediante mejoras en experiencia de usuario y consistencia visual."
+   │   │
+   │   ├── PROYECTO 4: Rocketbot (2017 - 2018)
+   │   │   ├── Cargo: Gerente Regional y Co-Founder
+   │   │   └── Descripción Completa:
+   │   │       - "Co-fundador de solución RPA con modelo SaaS, participando en definición de producto y análisis de procesos empresariales para automatización."
+   │   │       - "Lideré la expansión regional en Colombia, trabajando directamente con clientes corporativos en la optimización de procesos y eficiencia operativa."
+   │   │
+   │   ├── PROYECTO 5: R2DA (2016 - 2017)
+   │   │   ├── Cargo: Co-Founder - Diseñador UI
+   │   │   └── Descripción Completa (Lista):
+   │   │       - "Co-Fundador R2DA, empresa de desarrollo a medida"
+   │   │       - "Gestión de equipos TI."
+   │   │       - "Diseño de interfaces y apps móviles."
+   │   │
+   │   ├── PROYECTO 6: Acid Labs (2012 - 2016)
+   │   │   ├── Cargo: Diseñador Front-End
+   │   │   └── Descripción Completa:
+   │   │       - "Diseñador Front-End durante 5 años en proyectos de e-commerce, mobile y plataformas digitales para clientes como reconocidas marcas de retail y salud."
+   │   │       - "Participé en el diseño e implementación de soluciones digitales, colaborando con equipos multidisciplinarios desde la conceptualización hasta la ejecución."
+   │   │
+   │   ├── PROYECTO 7: Pymefácil (2010 - 2012)
+   │   │   ├── Cargo: Lead Designer
+   │   │   └── Descripción Completa:
+   │   │       - "Diseñador gráfico en la primera agencia de emprendimiento de Chile."
+   │   │       - "Diseño de marca, desarrollo web y estrategia de marketing para nuevas empresas."
+   │   │
+   │   └── PROYECTO 8: C. Pedro de Valdivia (2009 - 2010)
+   │       ├── Cargo: Web & Editorial
+   │       └── Descripción Completa:
+   │           - "Diseño y desarrollo web para colegios y pre-universitarios de la corporación."
+   │           - "Diseño editorial de agendas y anuarios y pruebas multimedia para alumnos de pre-básica."
+
+4. EXPERTISE & SERVICES (Capabilities)
+   ├── ID: expertise
+   ├── Label de Sección: Expertise & Services
+   ├── Frase Introductoria: "Un enfoque híbrido que garantiza coherencia desde el prototipo hasta el código final."
+   ├── Pilares de Servicio:
+   │   ├── 1. UX/UI Design: "Diseño centrado en el usuario enfocado en usabilidad, accesibilidad y estética minimalista para plataformas SaaS complejas."
+   │   ├── 2. Front-End Development: "Implementación de interfaces robustas con React, Vue y arquitecturas modernas, priorizando el rendimiento y la escalabilidad."
+   │   ├── 3. Design Systems: "Creación y mantenimiento de librerías de componentes consistentes que aceleran el ciclo de desarrollo y diseño."
+   │   └── 4. Digital Strategy: "Consultoría estratégica para alinear los objetivos técnicos con la visión de negocio a largo plazo."
+
+5. PERFIL PROFESIONAL (Impact)
+   ├── ID: about (profile-section)
+   ├── Label de Sección: About the professional
+   ├── Título Principal (h2): "Estrategia, Diseño y Código en un solo lugar."
+   ├── Cuerpo del Perfil (2 Párrafos):
+   │   ├── Párrafo 1: "A lo largo de una década, he colaborado con corporaciones líderes y startups dinámicas en Chile y el extranjero. Mi misión es cerrar la brecha entre la intención del diseño y la viabilidad técnica."
+   │   └── Párrafo 2: "Me especializo en liderar equipos técnicos y creativos hacia la entrega de productos que no solo se ven excepcionales, sino que funcionan perfectamente bajo carga y escala."
+   └── Métricas de Impacto:
+       ├── 10+ Years exp.
+       └── 50+ Projects delivered
+
+6. PIE DE PÁGINA (Footer)
+   ├── ID: contacto
+   ├── Frase de Cierre: "¿Listo para el siguiente paso?"
+   ├── Canal de Contacto: hola@and318.com
+   ├── Enlaces a Perfiles Externos:
+   │   ├── LinkedIn (linkedin.com)
+   │   ├── GitHub (github.com)
+   │   └── Dribbble (dribbble.com)
+   └── Créditos: © 2026 PORTFOLIO — Santiago, CL.
+=========================================================
